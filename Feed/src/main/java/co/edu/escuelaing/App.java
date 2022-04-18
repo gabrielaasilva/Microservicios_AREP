@@ -1,7 +1,8 @@
 package co.edu.escuelaing;
 
-import static spark.Spark.get;
-import static spark.Spark.port;
+import co.edu.escuelaing.Service.MongoDB;
+
+import static spark.Spark.*;
 
 /**
  * Hello world!
@@ -9,11 +10,18 @@ import static spark.Spark.port;
  */
 public class App 
 {
+    static MongoDB mongoDB = new MongoDB();
     public static void main( String[] args )
     {
         port(getport());
-        get("/feed", (request,response) -> "Aqui va el feed");
-        System.out.println( "Hello World!" );
+        path("/feed", () -> {
+            get("/20", (request,response) -> {
+                response.type("application/json");
+
+                return mongoDB.getLast20Post();
+            });
+        });
+        get("/hello", (request,response) -> "Aquí va el feed");
     }
 
     private static int getport(){
