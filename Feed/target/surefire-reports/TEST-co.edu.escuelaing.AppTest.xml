@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="co.edu.escuelaing.AppTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="co.edu.escuelaing.AppTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
     <property name="java.vm.version" value="25.301-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\JUANK\Documents\Semestre 2022-1\AREP\T3\LAB05\Feed"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\JUANK\Documents\Semestre 2022-1\AREP\T3\LAB05\BACK\Feed"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\JUANK\Documents\Semestre 2022-1\AREP\T3\LAB05\Feed"/>
+    <property name="user.dir" value="D:\JUANK\Documents\Semestre 2022-1\AREP\T3\LAB05\BACK\Feed"/>
     <property name="java.runtime.version" value="1.8.0_301-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="co.edu.escuelaing.AppTest" name="shouldAnswerWithTrue" time="0.002"/>
+  <testcase classname="co.edu.escuelaing.AppTest" name="shouldAnswerWithTrue" time="0.001"/>
 </testsuite>
