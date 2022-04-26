@@ -1,2 +1,3 @@
 edu\escuealing\arep\model\Post.class
+edu\escuealing\arep\service\MongoDB.class
 edu\escuealing\arep\App.class
