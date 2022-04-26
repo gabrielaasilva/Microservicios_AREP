@@ -55,7 +55,7 @@ java -cp "target/classes:target/dependency/*" edu.escuelaing.arep.App
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 
-## Actores
+## Autores
 
 * **Ana Gabriela Silva** - [gabrielaasilva](https://github.com/gabrielaasilva)
 * **Juan Camilo Gil** - [jua1000n](https://github.com/jua1000n)
