@@ -32,17 +32,17 @@ code .
 ```
 5. Para conectarnos a nuestra maquina virtual usamos la consola y ejecutamos
 ```
-ssh -i "servicesPair.pem" ec2-user@ec2-54-226-163-119.compute-1.amazonaws.com
+ssh -i "Microservicios.pem" ec2-user@ec2-3-231-151-135.compute-1.amazonaws.com
 ```
 
 6. y nuestra aplicacion se encuentra en el directorio 
 ```
-cd /home/ec2-user/AREP-P2
+cd /home/Microservicios_AREP
 ```
 
 7. Si queremos ejecutar nuestra aplicacion desde la maquina virtual usamos
 ```
-java -cp "target/classes:target/dependency/*" edu.escuelaing.arep.Service
+java -cp "target/classes:target/dependency/*" edu.escuelaing.arep.App
 ```
 
 ## Programa hecho con
