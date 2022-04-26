@@ -45,6 +45,12 @@ cd /home/Microservicios_AREP
 java -cp "target/classes:target/dependency/*" edu.escuelaing.arep.App
 ```
 
+## Evidencias EC2
+
+![](https://github.com/gabrielaasilva/Microservicios_AREP/blob/master/Resources/img1.jpeg)
+![](https://github.com/gabrielaasilva/Microservicios_AREP/blob/master/Resources/img2.jpeg)
+![](https://github.com/gabrielaasilva/Microservicios_AREP/blob/master/Resources/img3.jpeg)
+
 ## Programa hecho con
 
 * [Maven](https://maven.apache.org/) - Dependency Management
